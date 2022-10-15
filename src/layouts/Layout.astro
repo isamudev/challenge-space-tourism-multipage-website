@@ -15,11 +15,9 @@ import Header from '@/layouts/components/header/index.astro'
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" as="style" onload="this.onload=null; this.rel='stylesheet'" />
   </head>
-  <body class="grid pl-6 md:pl-[2.4375rem] xl:pt-10 xl:pl-[3.4375rem]">
+  <body class="grid bg-primary pl-6 text-white md:pl-[2.4375rem] xl:pt-10 xl:pl-[3.4375rem]">
     <Header />
 
-    <main>
-      <slot />
-    </main>
+    <slot />
   </body>
 </html>

@@ -21,6 +21,18 @@ module.exports = {
         'xl-only': { min: '1280px', max: '1535px' },
         '2xl-only': { min: '1536px' },
       },
+      minHeight: (theme) => ({
+        ...theme('spacing'),
+      }),
+      minWidth: (theme) => ({
+        ...theme('spacing'),
+      }),
+      maxHeight: (theme) => ({
+        ...theme('spacing'),
+      }),
+      maxWidth: (theme) => ({
+        ...theme('spacing'),
+      }),
     },
   },
   plugins: [],
